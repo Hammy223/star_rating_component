@@ -1,3 +1,13 @@
-# star_rating_component
+# Star Rating Component for AngularDart
 
-usage: <mat-star-rating [rating]="1"  [starCount]="5" [color]="primary" (ratingUpdated)="onRatingChanged($event)"></mat-star-rating>
+Usage:
+```dart
+<mat-star-rating class="recommendbutton"  [rating]="0" [starCount]="5" 
+[starColor]="'gold'" (onRatingClick)="onRatingChanged($event)"></mat-star-rating>
+
+
+void onRatingChanged(rating){
+    print(rating);
+    //this.rating = rating;
+  }
+```

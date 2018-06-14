@@ -1,8 +1,3 @@
-<material-button [color]="color" *ngFor="let ratingId of ratingArr;index as i" [id]="'star_'+i" (click)="onClick(i+1)" [matTooltip]="ratingId+1" matTooltipPosition="above">
-  <material-icon>
-    {{showIcon(i)}}
-  </material-icon>
+<material-button icon [style.color]="starColor" *ngFor="let ratingId of ratingArr; let i=index" (click)="onClick(i+1)">
+  <material-icon icon="{{showIcon(i)}}"></material-icon>
 </material-button>
-<!--<mat-error *ngIf="starCount == null || starCount == 0">
-  Star count is <strong>required</strong> and cannot be zero
-</mat-error>-->

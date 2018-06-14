@@ -2,7 +2,7 @@
 
 Usage:
 ```dart
-<mat-star-rating class="recommendbutton"  [rating]="0" [starCount]="5" 
+<mat-star-rating [rating]="0" [starCount]="5" 
 [starColor]="'gold'" (onRatingClick)="onRatingChanged($event)"></mat-star-rating>
 
 

@@ -8,6 +8,8 @@ Usage:
 
 void onRatingChanged(rating){
     print(rating);
-    //this.rating = rating;
   }
 ```
+
+Screenshot:<br>
+![alt text](screenshot.png)

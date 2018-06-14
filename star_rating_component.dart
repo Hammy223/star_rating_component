@@ -8,7 +8,6 @@ import 'package:angular_components/material_icon/material_icon.dart';
   selector: 'mat-star-rating',
   templateUrl: './star_rating_component.html',
   styleUrls: [
-    './star_rating_component.css',
     "https://fonts.googleapis.com/icon?family=Material+Icons"
   ],
   encapsulation: ViewEncapsulation.Emulated,
